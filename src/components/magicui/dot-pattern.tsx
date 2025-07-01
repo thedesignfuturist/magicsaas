@@ -89,6 +89,7 @@ export function DotPattern({
     return () => window.removeEventListener("resize", updateDimensions);
   }, []);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const dots = Array.from(
     {
       length:
