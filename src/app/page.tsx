@@ -453,7 +453,7 @@ export default function Home() {
             </button>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {pricingData[period].map((plan, idx) => (
+            {pricingData[period].map((plan) => (
               <div
                 key={plan.name}
                 className={`relative flex flex-col rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-8 pt-8 pb-6 shadow-sm transition-all duration-300 ${plan.name === 'Professional' ? 'ring-2 ring-primary/80 ring-offset-2 ring-offset-background bg-white dark:bg-zinc-900' : ''}`}
