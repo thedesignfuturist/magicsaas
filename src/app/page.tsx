@@ -692,12 +692,3 @@ export default function Home() {
     </div>
   );
 }
-
-// 텍스트 애니메이션 데모 예시
-export function TextAnimateDemo3() {
-  return (
-    <TextAnimate animation="slideUp" by="word">
-      Slide up by word
-    </TextAnimate>
-  );
-}
