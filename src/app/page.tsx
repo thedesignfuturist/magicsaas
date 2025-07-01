@@ -5,20 +5,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Separator } from "@/components/ui/separator";
 import { Marquee } from "@/components/ui/marquee";
 import { cn } from "@/lib/utils";
-import { Check, Star, Users, Zap, Shield, Globe, MessageSquare, Heart, ArrowRight, Sparkles } from "lucide-react";
+import { Check, Shield, Globe, MessageSquare, Heart, ArrowRight, Sparkles } from "lucide-react";
 import { MorphingText } from "@/components/magicui/morphing-text";
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
-import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
-import { BorderBeam } from "@/components/magicui/border-beam";
-import { useState } from "react";
-import { Switch } from "@/components/ui/switch";
-import { NumberTicker } from "@/components/magicui/number-ticker";
 import { TextAnimate } from "@/components/magicui/text-animate";
-import { InteractiveGridPattern } from "@/components/magicui/interactive-grid-pattern";
 import { DotPattern } from "@/components/magicui/dot-pattern";
+import { useState } from "react";
+import { Zap, Users } from "lucide-react";
 
 const reviews = [
   {
